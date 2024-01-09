@@ -7,7 +7,7 @@ Pipeline{
         }
      }
       stage('format'){
-        steps{
+         steps{
             sh 'terraform fmt'
         }
       }
